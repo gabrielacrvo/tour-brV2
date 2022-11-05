@@ -1,0 +1,28 @@
+.gallery {
+    margin: 10px;
+    border: 1px solid blue;
+    float: left;
+    width: 220px;
+    height: 240px;
+    background-color: rgb(255, 255, 37);
+  }
+
+.gallery:hover {
+    border: 1px solid rgb(41, 202, 41);
+  }
+
+.gallery img {
+    width: 100%;
+    height: auto;
+  }  
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: rgb(0, 0, 192);
+}
+
+.flex{
+    display:flex;
+    justify-content: space-around;
+}

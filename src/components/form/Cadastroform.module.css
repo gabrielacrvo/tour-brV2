@@ -1,0 +1,33 @@
+.form{
+    width: 100%;
+    margin: 1em 0;
+    padding: 1em;
+    
+}
+
+
+
+.cadform{
+    margin-top: 2em;
+    background-color: rgb(255, 253, 142);
+    width: 50em;
+    border-radius: 0.5em;
+    
+    
+}
+
+.cadform h2{
+    color:rgb(16, 16, 124);
+    padding: 2em;
+}
+
+
+
+.inputform{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+    
+}

@@ -1,0 +1,32 @@
+.form{
+    width: 100%;
+    margin: 1em 0;
+    padding: 1em;
+    
+}
+
+.data{
+    padding: 1em;
+    border-color:blue;
+    
+}
+
+.passagemform{
+    background-color: blue;
+    width:30em;
+    border-radius: 0.5em;
+}
+
+.passagemform h3{
+    padding: 1em;
+    color:antiquewhite
+}
+
+.inputform{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+    
+}
