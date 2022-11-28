@@ -10,7 +10,7 @@ import fn from './images/fenoronha.svg'
 import sluis from './images/sluis.svg'
 function Cardpromo(){
     return(
-        <div>
+        <div className= {styles.container}>
         <div className={styles.gallery}>
         <a target="_blank">
           <img src={portog} alt="Porto de Galinhas" width="600" height="400"/>

@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Navbar/>
     
-    <Container customClass="min-height">
+      <Container customClass="min-height">
       <Routes>
          <Route exact path="/" element= {<Home/>}></Route>
         <Route exact path="/destinos" element= {<Destinos/>}></Route>
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/cadastro" element= {<Cadastro/>}></Route>
         <Route exact path="/login" element= {<Login/>}></Route>
        </Routes>
-    </Container>   
+    </Container> 
       <Footer/>   
 </Router>
 

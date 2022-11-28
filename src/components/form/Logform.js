@@ -2,12 +2,13 @@ import React from 'react'
 import styles from './Logform.module.css'
 import Input from './input'
 import Submitbutton from './Submitbutton'
+import login from '../images/icons8-login-48.png'
 
 function Logform({btnText}){
     return(
         <div className={styles.passagemform}>
         <div>
-          <h3>  Login</h3>
+          <h2> <img src ={login} width = "45px"/> Faça seu login:</h2>
         </div>
         <form className={styles.form}>
           <div className={styles.inputform}>
@@ -15,7 +16,7 @@ function Logform({btnText}){
           <Input
           type = "text"
           name = "name"
-          placeholder = "Nome"
+          placeholder = "Email"
           />
           </div>
           <div>

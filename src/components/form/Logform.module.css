@@ -5,11 +5,6 @@
     
 }
 
-.data{
-    padding: 1em;
-    border-color:blue;
-    
-}
 
 .passagemform{
     background-color: blue;
@@ -17,7 +12,7 @@
     border-radius: 0.5em;
 }
 
-.passagemform h3{
+.passagemform h2{
     padding: 1em;
     color:antiquewhite
 }

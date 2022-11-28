@@ -16,7 +16,7 @@ import valeita from './images/valedoitajai.webp'
 
 function Card(){
     return(
-        <div>
+        <div className={styles.container}>
         <div className={styles.gallery}>
         <a target="_blank">
           <img src={belem} alt="Belém-PA"/>

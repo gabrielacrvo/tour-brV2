@@ -16,7 +16,7 @@ function Navbar(){
            <li className= {styles.item}><Link to = "/destinos"><RiRoadMapLine/> Destinos</Link></li>
            <li className= {styles.item}><Link to = "/promoções"><MdOutlineLocalOffer/> Promoções</Link></li>
            <li className= {styles.item}><Link to = "/cadastro"><MdOutlinePermContactCalendar/> Cadastre-se</Link></li>
-           <li className= {styles.item}><Link to = "/login"> <MdLogin/> Login</Link></li>
+           <li className= {styles.item}><Link to = "/login"><MdLogin/>  Login</Link></li>
           </ul>
         </Container>
         
